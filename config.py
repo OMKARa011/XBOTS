@@ -10,27 +10,27 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 
 # VALUES REQUIRED FOR XBOTS
-API_ID = 18136872
-API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
+API_ID = "22674581"
+API_HASH = "4482f9af75b0c784ba27905aa72737d9"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
-BOT_TOKEN = getenv("BOT_TOKEN", default=None)
-BOT_TOKEN2 = getenv("BOT_TOKEN2", default=None)
-BOT_TOKEN3 = getenv("BOT_TOKEN3", default=None)
-BOT_TOKEN4 = getenv("BOT_TOKEN4", default=None)
-BOT_TOKEN5 = getenv("BOT_TOKEN5", default=None)
-BOT_TOKEN6 = getenv("BOT_TOKEN6", default=None)
-BOT_TOKEN7 = getenv("BOT_TOKEN7", default=None)
-BOT_TOKEN8 = getenv("BOT_TOKEN8", default=None)
-BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
-BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
+BOT_TOKEN = getenv("BOT_TOKEN", "5822366668:AAEVzM85cDVr-kvcEk0JF8lyXEoNW_VdRPA")
+BOT_TOKEN2 = getenv("BOT_TOKEN2", "6563344304:AAFEy2LZe8K0IMxUCfx4jLbmyDoTKQg7YZA")
+BOT_TOKEN3 = getenv("BOT_TOKEN3", "6364853958:AAEur1dPP-Bf439H1-YaO7Tavu9nFQ6ZtWc")
+BOT_TOKEN4 = getenv("BOT_TOKEN4", "6475527198:AAFc-CW6fZjlWQmUVqBw9r6VO04SjDOoBNk")
+BOT_TOKEN5 = getenv("BOT_TOKEN5", "6267420020:AAF993wVJbMiRfNEQ9ppznTTtOf3hL-qJN8")
+BOT_TOKEN6 = getenv("BOT_TOKEN6", "6500524583:AAGiBd47WuVvRiP_mAcfM-mnvsXu9LH1nXI")
+BOT_TOKEN7 = getenv("BOT_TOKEN7", "5820742464:AAGIelfuaQo71gmKWA9aGGvt-kMqEA3uGPI")
+BOT_TOKEN8 = getenv("BOT_TOKEN8", "6240690943:AAFvalNRu5cQKViXQf_QJl4MraOUBbImXf8")
+BOT_TOKEN9 = getenv("BOT_TOKEN9", "6447515256:AAE5zEJyE7PLZugg7bgLTTphlpKsouucJhA")
+BOT_TOKEN10 = getenv("BOT_TOKEN10", "6417722976:AAHDSk5ykA7QL4pr7Qk4e8MKQgzXUThplsM")
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5518687442").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5935765877").split()))
 for x in ALTRON:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="5518687442"))
+OWNER_ID = int(getenv("OWNER_ID", default="5935765877"))
 SUDO_USERS.append(OWNER_ID)
 
 
